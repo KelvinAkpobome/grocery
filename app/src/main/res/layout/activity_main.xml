@@ -11,8 +11,24 @@
         android:id="@+id/recyclerView"
         android:layout_width="409dp"
         android:layout_height="354dp"
+        android:background="@color/colorPrimaryDark"
         android:padding="4dp"
-        android:scrollbars="vertical"
-        android:background="@color/colorPrimaryDark"/>
+        android:scrollbars="vertical" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Share"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:onClick="button"/>
 
 </RelativeLayout>
